@@ -1,0 +1,2 @@
+## Golang NVIM config.
+
