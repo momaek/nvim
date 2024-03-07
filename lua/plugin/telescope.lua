@@ -110,7 +110,7 @@ end
 vim.keymap.set('n', '<leader>s', builtin.live_grep)
 vim.keymap.set('n', '<leader>/', builtin.current_buffer_fuzzy_find)
 vim.keymap.set('n', '<C-p>', builtin.find_files)
-vim.keymap.set('n', '<C-o>', current_buffer_tags)
+vim.keymap.set('n', '<C-b>', builtin.buffers)
 vim.keymap.set('n', 'gd', function()
     local cword = vim.fn.expand('<cword>')
     grep_tags({tag = cword})
